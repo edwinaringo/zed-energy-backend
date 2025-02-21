@@ -35,6 +35,8 @@ alembic/versions/*.pyc
 alembic/versions/*.pyo
 alembic/versions/__pycache__/
 
+alembic.ini
+
 # Jupyter Notebook checkpoints (if using Jupyter)
 .ipynb_checkpoints/
 

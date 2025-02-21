@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.vscode/
+.venv/
+env/
+venv/
+bin/
+include/
+lib/
+pyvenv.cfg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# FastAPI logs
+logs/
+*.log
+
+# PyCharm IDE files
+.idea/
+
+# SQLite database files (if using SQLite)
+*.sqlite3
+*.db
+
+# Postgres database credentials (if stored in env file)
+.env
+.env.*
+
+# Alembic migrations cache
+alembic/versions/*.pyc
+alembic/versions/*.pyo
+alembic/versions/__pycache__/
+
+# Jupyter Notebook checkpoints (if using Jupyter)
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Editor backup files
+*.swp
+*.swo
+*~
